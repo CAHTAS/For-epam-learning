@@ -1,0 +1,18 @@
+let a = 'str';
+let b = 5;
+let c = true;
+let d = a + c;
+let f = a + b;
+let g = b + c;
+console.log(d, f, g);
+let i = a * c;
+let j = a * b;
+let k = b * c;
+console.log(i, j, k);
+let l = a / b;
+let m = a / c;
+let n = b / c;
+console.log(l, m, n);
+let strB = b.toString();
+let bool = Boolean(strB); 
+console.log(bool);
